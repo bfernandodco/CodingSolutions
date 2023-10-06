@@ -37,6 +37,11 @@ Aqui estão algumas imagens que representam o início e uma visão sobre o Vida+
 - SQL
 
 ## Equipe CodeSolutions
+
+<p align="center">
+  <img src="imgParaReadme/team.png" alt="Logo CodeSolutions" width="70"/>
+</p>
+
 Conheça a equipe que tornou o Vida+ uma realidade:
 - Vinicius Chiazza - Front-end [GitHub](https://github.com/ViniciusChiazza) 👨‍💻
 - Bruno Fernando - Back-end [GitHub](https://github.com/bfernandodco) 👨‍💻
