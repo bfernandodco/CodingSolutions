@@ -38,8 +38,8 @@ Aqui estão algumas imagens que representam o início e uma visão sobre o Vida+
 Conheça a equipe que tornou o Vida+ uma realidade:
 - Vinicius Chiazza - Front-end [GitHub](https://github.com/ViniciusChiazza) 👨‍💻
 - Bruno Fernando - Back-end [GitHub](https://github.com/bfernandodco) 👨‍💻
-- Robson Gomes - Back-end [GitHub](https://github.com/robsonrccha) 👨‍💻
-- Cristian Santos - Front-end [GitHub](https://github.com/cristian-santos) 👩‍💻
+- Robson Gomes - Negócios [GitHub](https://github.com/robsonrccha) 💼
+- Cristian Santos - Fullstack [GitHub](https://github.com/cristian-santos) 👩‍💻
 - Raquel Sofia - Front-end [GitHub](https://github.com/RaquelGuerreiro21) 👩‍💻
 
 ## Agradecimentos Especiais
