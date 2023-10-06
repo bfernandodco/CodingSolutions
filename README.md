@@ -1,4 +1,5 @@
 # Projeto Vida+ 🌟
+![Logo Vida+](imgParaReadme/codesolutions.png) 
 
 ## Introdução
 O **Projeto Vida+** é uma iniciativa desenvolvida durante o Hackathon da FIAP+Alura em colaboração com a equipe dos Passos Mágicos. O objetivo é analisar padrões de saúde mental e alimentar, utilizando escalas cientificamente reconhecidas, tais como as escalas Ketcher e EBIA. O enfoque é tornar o processo amigável para crianças, utilizando perguntas com emojis.
