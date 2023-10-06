@@ -14,6 +14,9 @@ Aqui estão algumas imagens que representam o início e uma visão sobre o Vida+
 - ![Início Vida+](imgParaReadme/inicioVida+.jpeg) - Tela inicial do Vida+
 - ![Sobre Vida+](imgParaReadme/sobreVida+.jpeg) - Visão geral sobre o Projeto Vida+
 
+## Video do pitching sobre o projeto
+-[YouTube](https://www.youtube.com/watch?v=PMIijaenY24&ab_channel=ViniciusChiazza)
+
 ## Como Usar
 1. Responda todas as perguntas semanalmente.
 2. Encaminhe seu perfil para o banco de dados.
