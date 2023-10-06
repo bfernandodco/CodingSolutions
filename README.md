@@ -3,10 +3,11 @@
   <img src="imgParaReadme/codesolutions.png" alt="Logo Vida+" width="100"/>
 </p>
 ## Introdução
+
 O **Projeto Vida+** é uma iniciativa desenvolvida durante o Hackathon da FIAP+Alura em colaboração com a equipe dos Passos Mágicos. O objetivo é analisar padrões de saúde mental e alimentar, utilizando escalas cientificamente reconhecidas, tais como as escalas Ketcher e EBIA. O enfoque é tornar o processo amigável para crianças, utilizando perguntas com emojis.
 
 ## Objetivo
-Nosso propósito é promover a saúde em Embu-Guaçu, visando uma comunidade mais saudável e feliz, unindo ideias com a organização Passos Mágicos.
+Nosso propósito é promover a saúde em Embu-Guaçu, visando uma comunidade mais saudável e feliz, unindo ideias que conversem tanto com a cidade quanto a organização Passos Mágicos.
 
 ## Protocolo
 O Vida+ permite que os usuários respondam perguntas semanalmente, inserindo informações relevantes que são armazenadas em um banco de dados. Com base nessas respostas, é gerado um protocolo que é encaminhado a um psicólogo para um atendimento personalizado.
