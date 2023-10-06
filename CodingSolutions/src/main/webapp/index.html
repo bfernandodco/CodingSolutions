@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="img/codesolutions.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
+  <script src="assets/js/script.js" defer></script>
+  <title>Vida+</title>
+</head>
+<body>
+  <header>
+      <nav class="nav-bar">
+        <div class="container-logo">
+          <img src="img/codingsolutions.jpg" class="logo" alt="Imagem logo do projeto Vida+, uma cidade englobada em tecnologia">
+          <p class="logo-titulo">Vida+</p>
+        </div>
+        <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+          <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+        </ul>
+      </div>
+      <div class="mobile-menu-icon">
+        <i onclick="menuShow()" class="fas fa-bars"></i>
+      </div>
+      </nav>
+
+      <div class="mobile-menu">
+        <ul>
+          <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+          <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+        </ul>
+      </div>
+  </header>
+  <main>
+    <section>
+      <div class="content-title">
+        <h1>Vida+</h1>
+        <h2>Preencha o formulário</h2>
+      </div>
+            <div class="content-container">
+            <form id="dataForm" action="cadastrarFormulario" method="post">
+                <div class="questions-section" id="q1">
+                        <div class="form-container">
+                                <label for="name">Nome:</label>
+                                <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+                        </div>
+                        
+                        <div class="form-container date-container" >
+                                <label for="age">Data de nascimento:</label>
+                                <input type="date" id="age" name="age" required >
+                        </div>  
+
+                        <div class="form-container">
+                                <label for="school">Instituição de Ensino:</label>
+                                <input type="text" id="school" name="school" required placeholder="Digite sua instituição de ensino">
+                        </div>
+                        
+                        <div class="form-container">
+                                <label for="phone">Telefone:</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Digite seu telefone">
+                        </div>
+                </div>        
+
+                        <div class="questions-section" id="q2">
+                            <h2>Perguntas sobre Saúde Mental - Escala Kutcher (1/4):</h2>
+                            <h3>Da esquerda para direita</h3>
+                            <h4>Tranquilo - Leve - Complicado - Preciso de ajuda</h4><br>
+
+                                <label for="question1">Você se sente...?</label>
+                                <div class="options">
+                                    <label>
+                                    <input type="radio" name="question1" value="1" required> 😃
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question1" value="2" required> 😔
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question1" value="3" required> 😢
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question1" value="4" required> 😭
+                                    </label>
+                                </div>
+
+                                <label for="question2">Você se sente...?</label>
+                                <div class="options">
+                                    <label>
+                                    <input type="radio" name="question2" value="1" required> 😃
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question2" value="2" required> 🥱
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question2" value="3" required> 😤
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question2" value="4" required> 😡
+                                    </label>
+                                </div>
+
+                                <label for="question3">Você sente dificuldade para dormir?</label>
+                                <div class="options">
+                                    <label>
+                                    <input type="radio" name="question3" value="1" required> 😴
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question3" value="2" required> 😪
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question3" value="3" required> 🤪
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question3" value="4" required> 🥴
+                                    </label>
+                                </div>
+                            </div>
+
+                        <div class="questions-section" id="q3">
+                            <h2>Perguntas sobre Saúde Mental - Escala Kutcher (2/4):</h2>
+                            <h3>Da esquerda para direita</h3>
+                            <h4>Tranquilo - Leve - Complicado - Preciso de ajuda</h4><br>
+
+                                <label for="question4">Você tem se divertido com seus amigos e tem feito coisas que gosta?</label>
+                                <div class="options">
+                                    <label>
+                                    <input type="radio" name="question4" value="1" required> 🙂
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question4" value="2" required> 🙄
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question4" value="3" required> 😟
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question4" value="4" required> 😔
+                                    </label>
+                                </div>
+
+                                <label for="question5">Você tem se sentido sozinho e sem esperança?</label>
+                                <div class="options">
+                                    <label>
+                                    <input type="radio" name="question5" value="1" required> 😊
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question5" value="2" required> 😨
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question5" value="3" required> 😰
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question5" value="4" required> 😱
+                                    </label>
+                                </div>
+
+                                <label for="question6">Você tem se sentido cansado ou com pouca energia?</label>
+                                <div class="options">
+                                    <label>
+                                    <input type="radio" name="question6" value="1" required> 🙂
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question6" value="2" required> 🤒
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question6" value="3" required> 🤢
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question6" value="4" required> 🤮
+                                    </label>
+                                </div>
+                        </div>
+
+                        <div class="questions-section" id="q4">
+                            <h2>Perguntas sobre Saúde Mental - Escala Kutcher (3/4):</h2>
+                            <h3>Da esquerda para direita</h3>
+                            <h4>Tranquilo - Leve - Complicado - Preciso de ajuda</h4><br>
+
+                                <label for="question7">Você tem dificuldade para prestar atenção nas aulas da escola?</label>
+                                <div class="options">
+                                    <label>
+                                    <input type="radio" name="question7" value="1" required> 🙂
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question7" value="2" required> 😯
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question7" value="3" required> 😅
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question7" value="4" required> 😵
+                                    </label>
+                                </div>
+
+                                <label for="question8">Você sente que sua vida é divertida?</label>
+                                <div class="options">
+                                    <label>
+                                    <input type="radio" name="question8" value="1" required> 🙂
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question8" value="2" required> 🤔
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question8" value="3" required> 😥
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question8" value="4" required> 😓
+                                    </label>
+                                </div>
+
+                                <label for="question9">Você tem se sentido preocupado?</label>
+                                <div class="options">
+                                    <label>
+                                    <input type="radio" name="question9" value="1" required> 🙂
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question9" value="2" required> 😯
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question9" value="3" required> 🤔
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question9" value="4" required> 😟
+                                    </label>
+                                </div>
+                        </div>
+
+                        <div class="questions-section" id="q4">
+                            <h2>Perguntas sobre Saúde Mental - Escala Kutcher (4/4):</h2>
+                            <h3>Da esquerda para direita</h3>
+                            <h4>Tranquilo - Leve - Complicado - Preciso de ajuda</h4><br>
+
+                                <label for="question10">Você tem sentido dores na barriga ou vontade de vomitar por estar preocupado?</label>
+                                <div class="options">
+                                    <label>
+                                    <input type="radio" name="question10" value="1" required> 🙂
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question10" value="2" required> 😷
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question10" value="3" required> 🤢
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question10" value="4" required> 🤮
+                                    </label>
+                                </div>
+
+                                <label for="question11">Você já pensou em se machucar?</label>
+                                <div class="options">
+                                    <label>
+                                    <input type="radio" name="question11" value="1" required> 💪
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question11" value="2" required> 🥺
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question11" value="3" required> 😞
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question11" value="4" required> 💔
+                                    </label>
+                                </div>
+                        </div>
+
+                        <div class="questions-section" id="q5">
+                            <h2>Fome no Nível Domiciliar - Escala EBIA (1/2):</h2>
+                            <h3>Da esquerda para direita</h3>
+                            <h4>Tranquilo - Leve - Complicado - Preciso de ajuda</h4><br>
+
+                                <label for="question12">Nos últimos 3 meses você sentiu medo da comida da sua casa acabar e não ter dinheiro para comprar mais?</label>
+                                <div class="options">
+                                    <label>
+                                    <input type="radio" name="question12" value="1" required> 👎
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question12" value="2" required> 🤏
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question12" value="3" required> 👍
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question12" value="4" required> 🍽️
+                                    </label>
+                                </div>
+
+                                <label for="question13">Nos últimos 3 meses você ficou com fome na sua casa por faltar comida?</label>
+                                <div class="options">
+                                    <label>
+                                    <input type="radio" name="question13" value="1" required> 😋
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question13" value="2" required> 😢
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question13" value="3" required> 🍽️
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question13" value="4" required> 👍
+                                    </label>
+                                </div>
+
+                                <label for="question14">Nos últimos 3 meses você comeu frutas, legumes e verduras?</label>
+                                    <div class="options">
+                                    <label>
+                                    <input type="radio" name="question14" value="1" required> 🥪
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question14" value="2" required> 🥗
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question14" value="3" required> 🤏
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question14" value="4" required> 👎
+                                    </label>
+                                </div>
+                        </div>
+
+                        <div class="questions-section" id="q6">
+                            <h2>Fome no Nível Domiciliar - Escala EBIA (2/2):</h2>
+                            <h3>Da esquerda para direita</h3>
+                            <h4>Tranquilo - Leve - Complicado - Preciso de ajuda</h4><br>
+
+                                <label for="question15">Nos últimos 3 meses você ficou sem comer na sua casa porque não tinha dinheiro para comprar comida?</label>
+                                    <div class="options">
+                                    <label>
+                                    <input type="radio" name="question15" value="1" required> 🏠
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question15" value="2" required> 😋
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question15" value="3" required> 😔
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question15" value="4" required> 👍
+                                    </label>
+                                </div>
+
+                                <label for="question16">Nos últimos 3 meses você comeu menos do que gostaria e continuou com fome?</label>
+                                    <div class="options">
+                                    <label>
+                                    <input type="radio" name="question16" value="1" required> 😊
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question16" value="2" required> 😐
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question16" value="3" required> 🤫
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question16" value="4" required> ☹️
+                                    </label>
+                                </div>
+
+                                <label for="question17">Nos últimos 3 meses, na sua casa, você passou um dia inteiro sem comer ou comeu somente uma vez no dia?</label>
+                                <div class="options">
+                                    <label>
+                                    <input type="radio" name="question17" value="1" required> 👎
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question17" value="2" required> 😐
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question17" value="3" required> ☹️
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="question17" value="4" required> 😭
+                                    </label>
+                        </div>       
+            </form>
+        </div> <!-- fim content-container-->            
+    </section>
+  </main>
+  <footer>
+    <div class="footer-container">
+        <h5>Desenvolvido por CodeSolutions Team</h5>
+        <img class="logo-coding" src="img/coding.jpg" alt="Logo CodingSolutions">
+    </div>
+  </footer>
+</body>
+</html>

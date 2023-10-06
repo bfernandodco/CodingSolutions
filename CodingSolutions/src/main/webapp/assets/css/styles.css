@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,500;16..144,700&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Montagu Slab', serif;
+  font-weight: 300;
+}
+
+/* Menu navegação */
+
+.header {
+  background-color: white;
+  box-shadow: 0px 3px 10px lightcyan;
+  height: auto;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem;
+  height: 100%;
+}
+
+.container-logo {
+  display: flex;
+  align-items: center;
+  max-width: 7%;
+}
+
+.logo {
+  width: 90%;
+  height: auto;
+}
+
+.logo-titulo {
+  text-align: center;
+  font-size: 1.5rem;
+  background: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 206, 209, 0.7);
+  font-weight: 700;
+  -webkit-text-stroke: 1px black;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: black;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* Corpo e formulario*/
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 70vh;
+  padding: 20px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  background-color: #F8FCFB;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: auto;
+  align-items: center
+}
+
+.content-container {
+  padding: 20px;
+}
+
+.content-title {
+  background-color: #C9FDD7;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 10px 0 10px 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 3rem;
+  background: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+h2 {
+  color: #333;
+  /* Cor escura para o subtítulo */
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+}
+
+.form-container input {
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #333;
+  /* Cor escura para o texto do label */
+  align-self: flex-start;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: auto;
+}
+
+.icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #00ced1;
+  /* Cor turquesa para o ícone ao passar o mouse */
+}
+
+input[type="submit"] {
+  background-color: #00ced1;
+  /* Cor turquesa para o botão */
+  color: #fff;
+  /* Texto branco para o botão */
+  border: none;
+  padding: 15px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #008b8b;
+  /* Cor turquesa escura ao passar o mouse */
+}
+
+button {
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: #79D1C3;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #F8FCFB
+}
+  /* Cor turquesa escura ao passar o mouse */
+
+/* Estilos para as perguntas */
+.questions-section {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  /* Adicionado para espaciar os botões */
+}
+
+.questions-section h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  /* Centraliza o texto das perguntas */
+}
+
+.questions-section label {
+  display: block;
+  margin-bottom: 20px;
+  /* Aumenta a margem entre perguntas */
+  text-align: center;
+  /* Centraliza o texto dos labels */
+}
+
+.questions-section .options {
+  display: flex;
+  justify-content: center;
+  /* Centraliza as opções */
+}
+
+.questions-section .options label {
+  display: flex;
+  flex-direction: column;
+  /* Coloca as opções em coluna */
+  align-items: center;
+  /* Centraliza verticalmente */
+  font-size: 40px;
+}
+
+/* Estilo para botão proximo, voltar e finalizar */
+.questions-section .button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+footer{
+  background-color: #6892D5; 
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  height: 100%;
+}
+
+.logo-coding {
+  width: 100px;
+  height: auto;
+  border-radius:100px ;
+}
+
+@media screen and (max-width: 730px) {
+
+  section {
+      width: 400px;
+  }
+
+  .nav-bar {
+      padding: 1.5rem 4rem;
+  }
+
+  .nav-item {
+      display: none
+  }
+
+  .mobile-menu-icon {
+      display: block;
+  }
+
+  .mobile-menu-icon i {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+  }
+
+  .mobile-menu ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+  }
+
+  .mobile-menu .nav-item {
+      display: block;
+      padding-top: 1.2rem;
+  }
+
+  .open {
+      display: block;
+  }
+}
